@@ -54,10 +54,6 @@ body  {
    
    
 }
-.btn-color:hover {
-   background-color: rgb(191, 135, 57);
-   color: white;
- }
 
 .carousel {
    display: flex;
@@ -129,9 +125,6 @@ p {
       color: #ffffff;
       font-size: 14px;
    }
-   .title-color:hover {
-      font-size: 16px
-   }
    .title-main {
       font-size: 35px;
    }
@@ -159,9 +152,7 @@ p {
    color: #ffffff;
    font-size: 30px;
 }
-.title-color-first:hover {
-   font-size: 35px
-}
+
 
 .dimensionati {
    width: 100%;
