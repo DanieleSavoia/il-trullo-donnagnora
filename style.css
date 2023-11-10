@@ -23,6 +23,8 @@ body  {
 }
 .sez-info {
    display: flex;
+   flex-wrap: wrap;
+   align-items:flex-start;
    justify-content: space-around;
    flex-direction: row;
 }
@@ -128,6 +130,7 @@ p {
    .title-main {
       font-size: 35px;
    }
+   
 }
 
 .txt-all {
@@ -166,8 +169,24 @@ p {
    background-repeat: no-repeat;
   
 }
-
+br {
+   display: none;
+}
 
 .background-4 {
    background-color: #26150461;
 }
+.wrp {
+   white-space:nowrap;
+}
+
+@media (min-width: 768px) {
+   .padding-h {
+   padding-top: 130px;
+   padding-bottom: 130px;
+}
+   br {
+      display: block;
+   }
+}
+
