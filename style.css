@@ -1,0 +1,182 @@
+body  {
+
+    font-family: 'Onest', sans-serif;
+    padding: 0;
+    margin: 0;
+    background-image: url(http://italian.outdoor-ceramictile.com/photo/outdoor-ceramictile/editor/20200414164415_85774.jpg);
+    background-repeat: repeat;
+    border-left: 1px solid black;
+    
+    
+}
+.container-lg {
+   border-left: 5px solid rgb(214, 195, 169);
+   border-right: 5px solid rgb(214, 195, 169);
+
+}
+.title-main {
+   font-size: 90px;
+   color: #ffffff;
+}
+.f-size {
+   font-size: 30px;
+}
+.sez-info {
+   display: flex;
+   justify-content: space-around;
+   flex-direction: row;
+}
+.sez-call {
+   display: flex;
+   flex-direction: column;
+}
+.btn-color {
+   background-color: antiquewhite;
+}
+.background-body {
+   background: rgb(250,235,215);
+   background: linear-gradient(180deg, rgba(250,235,215,1) 35%, rgba(214,195,165,1) 100%);
+}
+.container-fluid {
+   display: flex;
+   flex-wrap: wrap;
+   
+}
+
+.left-container {
+   flex: 1;
+   overflow: hidden;
+   
+}
+
+.right-container {
+   flex: 1;
+   
+   
+}
+.btn-color:hover {
+   background-color: rgb(191, 135, 57);
+   color: white;
+ }
+
+.carousel {
+   display: flex;
+   transition: transform 0.5s ease;
+}
+
+.carousel-sx {
+   border-right: 2px solid rgb(214, 195, 169);
+   border-top:2px solid rgb(214, 195, 169);
+   border-bottom: 2px solid rgb(214, 195, 169);
+}
+.carousel-dx {
+   border-left: 2px solid rgb(214, 195, 169);
+   border-top:2px solid rgb(214, 195, 169);
+   border-bottom: 2px solid rgb(214, 195, 169);
+}
+
+.carousel img {
+   width: 100%;
+   height: auto;
+}
+
+.content {
+   padding: 20px;
+}
+
+h2 {
+   font-size: 1.5rem;
+}
+
+p {
+   font-size: 1rem;
+}
+.size-text {
+   font-size: 20px;
+}
+.size-text-2 {
+   font-size: 25px;
+}
+@media (max-width: 768px) {
+   .container-fluid {
+       flex-direction: column;
+   }
+
+   .left-container {
+       flex: 1;
+       height: auto;
+   }
+
+   .right-container {
+       flex: 1;
+       flex-direction: column;
+   }
+   .title-icon {
+      font-size: 12px;
+   }
+   .size-text {
+      font-size: 1rem;
+   }
+   .size-text-2 {
+      font-size: 15px;
+   }
+   .f-size {
+      font-size: 20px;
+   }
+   
+   .title-color {
+      transition: font-size 0.3s;
+      color: #ffffff;
+      font-size: 14px;
+   }
+   .title-color:hover {
+      font-size: 16px
+   }
+   .title-main {
+      font-size: 35px;
+   }
+}
+
+.txt-all {
+   text-align: justify;
+}
+
+.card-service {
+   border: 1px solid black;
+}
+
+ .responsive {
+    width: 100%;
+    height:auto;
+  }
+
+.title-color {
+   color: #ffffff;
+  
+}
+.title-color-first {
+   transition: font-size 0.3s;
+   color: #ffffff;
+   font-size: 30px;
+}
+.title-color-first:hover {
+   font-size: 35px
+}
+
+.dimensionati {
+   width: 100%;
+   height: 50%;
+}
+ .trullo {
+   background-image: url("img/back.jpg");
+   width: 100%;
+   height: 100%;
+   background-size: cover;
+   background-repeat: no-repeat;
+  
+}
+
+
+.background-4 {
+   background-color: #26150461;
+}
