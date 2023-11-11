@@ -35,6 +35,9 @@ body  {
 .btn-color {
    background-color: antiquewhite;
 }
+.btn-color:hover {
+   background-color: rgba(214,195,165,1);
+}
 .background-body {
    background: rgb(250,235,215);
    background: linear-gradient(180deg, rgba(250,235,215,1) 35%, rgba(214,195,165,1) 100%);
